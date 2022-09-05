@@ -12,6 +12,7 @@
   "scripts": {
     "test": "jest",
     "start": "ts-node-dev src/kata.ts",
+    "start:tsc": "tsc --watch",
     "test:watch": "jest --watchAll"
   }
 }
