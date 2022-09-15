@@ -1,3 +1,4 @@
-test("something happens", () => {
-  expect(4 + 3).toBe(7);
+import { sum } from "./kata";
+test("sum works", () => {
+  expect(sum(5, 2)).toBe(7);
 });
